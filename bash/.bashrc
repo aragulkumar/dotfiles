@@ -127,4 +127,4 @@ alias gs='git status'
 alias gp='git push'
 alias gc='git commit'
 alias c='clear'
-
+alias ga='git add'
