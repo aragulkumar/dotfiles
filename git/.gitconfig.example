@@ -1,0 +1,34 @@
+# Template for git/.gitconfig
+#
+# Copy this to git/.gitconfig and fill in your details:
+#   cp git/.gitconfig.example git/.gitconfig
+#
+# git/.gitconfig is ignored by Git, so secrets and personal data stay local.
+
+[user]
+    name = Your Name
+    email = you@example.com
+
+[core]
+    editor = nvim
+    # pager = less -FRX
+
+[init]
+    defaultBranch = main
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    lg = log --oneline --graph --decorate
+
+[pull]
+    rebase = false
+
+# Signing (optional)
+# [commit]
+#     gpgsign = true
+# [gpg]
+#     program = gpg
+# [user]
+#     signingkey = YOUR_GPG_KEY_ID
