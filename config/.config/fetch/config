@@ -20,7 +20,7 @@ powerprofile
 # APPEARANCE
 label_color=green
 separator=━
-shading_mode=sextants
+shading_mode=ascii
 box=0
 
 # LOGO COLORS
@@ -30,7 +30,7 @@ logo_inner=cyan
 # 3D ROTATION
 light=top-left
 spin=xy
-speed=0.8
+speed=2.5
 size=0.9
 depth=1.5
 height=28
