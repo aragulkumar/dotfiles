@@ -1,0 +1,40 @@
+
+# SYSTEM INFORMATION
+os
+host
+kernel
+uptime
+packages
+shell
+display
+wm
+terminal
+cpu
+gpu
+memory
+swap
+disk
+battery
+powerprofile
+
+# APPEARANCE
+label_color=green
+separator=━
+shading_mode=sextants
+box=0
+
+# LOGO COLORS
+logo_outer=green
+logo_inner=cyan
+
+# 3D ROTATION
+light=top-left
+spin=xy
+speed=0.8
+size=0.9
+depth=1.5
+height=28
+
+# ALIGNMENT
+v_alignment=center
+h_alignment=left
