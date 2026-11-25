@@ -378,3 +378,10 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+-- Chrome Transparency
+hl.window_rule({
+    name    = "chromium-no-transparency",
+    match   = { class = "^(chromium)$" },
+    opacity = "1.0 override 1.0 override",
+})
