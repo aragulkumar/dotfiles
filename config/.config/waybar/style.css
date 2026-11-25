@@ -13,7 +13,8 @@
 
 window#waybar {
   background-color: @dark-9;
-  color: white;
+  color: white; 
+  
 }
 
 #workspaces button {
